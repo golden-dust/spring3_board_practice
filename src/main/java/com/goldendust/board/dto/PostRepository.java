@@ -19,5 +19,9 @@ public class PostRepository{
 		this.postRepository = new ArrayList<Post>();
 		this.postRepository.add(post);
 	}
+	
+	public void addPost(Post post) {
+		this.postRepository.add(post);
+	}
 
 }

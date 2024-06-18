@@ -2,7 +2,7 @@ package com.goldendust.board.dto;
 
 public class Post {
 		
-	private String id;
+	private String userId;
 	private String title;
 	private String content;
 	
@@ -11,18 +11,18 @@ public class Post {
 		super();
 	}
 	
-	public Post(String id, String title, String content) {
-		this.id = id;
+	public Post(String userId, String title, String content) {
+		this.userId = userId;
 		this.title = title;
 		this.content = content;
 	}
 
-	public String getId() {
-		return this.id;
+	public String getUserId() {
+		return this.userId;
 	}
 
-	public void setId(String id) {
-		this.id = id;
+	public void setUserId(String id) {
+		this.userId = id;
 	}
 
 	public String getTitle() {

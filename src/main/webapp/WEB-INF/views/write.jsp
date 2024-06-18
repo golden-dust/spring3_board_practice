@@ -10,11 +10,11 @@
 	<h2>게시판 글쓰기</h2>
 	<hr>
 	<fieldset style="width: 640px;">
-		<form action="submitOk">
+		<form action="write_completed">
 			<table border="1" cellspacing="0" cellpadding="0" width="600">
 				<tr>
 					<td>이름 : </td>
-					<td><input type="text" size="60" name="id"></td>
+					<td><input type="text" size="60" name="userId"></td>
 				</tr>
 				<tr>
 					<td>제목</td>
@@ -22,7 +22,7 @@
 				</tr>
 				<tr>
 					<td>내용</td>
-					<td><textarea row="10" cols="45" name="content" placeholder="여기에 글을 입력하세요"></textarea></td>
+					<td><textarea rows="10" cols="45" name="content" placeholder="여기에 글을 입력하세요"></textarea></td>
 				</tr>
 			</table>
 			<div>
